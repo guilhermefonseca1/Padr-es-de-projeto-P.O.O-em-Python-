@@ -23,3 +23,9 @@ class Ventilador:
         self.__velocidade = 0
         self.__velocidade_maxima = 3
         self.__corrente_atual_no_motor = 0
+
+# Crie um ventilador
+meu_ventilador = Ventilador("Azul", 200, 127, 200)
+seu_ventilador = Ventilador(
+    cor="Vermelho", potencia=250, tensao=220, preco=100
+)
